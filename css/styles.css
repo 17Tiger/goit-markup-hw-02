@@ -1,0 +1,217 @@
+/* -------------------------------------------------------------------HEADER-------------------------------------------------------------------------------------*/
+
+body{
+font-family: 'Roboto';
+color: #757575;
+}
+
+.title{
+color: #212121;
+}
+
+.header{
+background-color: #ffffff;       
+}
+
+.header-logo{
+font-family: 'Raleway';
+font-style: normal;
+font-size: 26px;
+line-height: 1.19;
+color: #2196F3;
+}
+
+.navigation a, .link-mail, .link-tel{
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+
+.nav-link:visited {
+    color: #212121;
+}
+
+.nav-link:hover, .link-mail:hover,
+.link-tel:hover, .header-logo:hover{
+color: #2196F3;
+}
+
+.nav-link:focus, .link-mail:focus, .link-tel:focus, .header-logo:focus  {
+color: #2196F3;
+}
+
+.link-mail, .link-tel{
+    color: #757575;
+}
+.header-logo:hover {
+    color: #212121;
+}
+/* -------------------------------------------------------------------MAIN-------------------------------------------------------------------------------------*/
+.main-top-section{
+background-color: #2F303A; 
+}
+/* -------------------------------------------------------------------SERVICE-SEC-------------------------------------------------------------------------------------*/
+.main-top-title{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #ffffff;
+}
+
+.service{
+background-color: #2196F3;
+color: #ffffff;
+cursor: pointer;
+}
+
+.service:hover, .service:focus{
+color: #212121;
+}
+
+/* -------------------------------------------------------------------PROS-SEC-------------------------------------------------------------------------------------*/
+.pros-main h3{
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.pros-main p{  
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/* -----------------------------------------------------------------------OURWORK-SEC---------------------------------------------------------------------------------*/
+.our-work h2{
+font-family: 'Roboto';
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+/* -------------------------------------------------------------------OURTEAM-SEC-------------------------------------------------------------------------------------*/
+.our-team{
+background-color: #F5F4FA;
+}
+
+.our-team h3{ 
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.our-team p{
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/* -------------------------------------------------------------------FOOTER-------------------------------------------------------------------------------------*/
+.footer{
+background-color: #2F303A;
+}
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #2196F3;
+}
+
+.fooret-map{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer-mail{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-map:visited {
+    color: white;
+}
+
+.footer-map:hover,
+.footer-mail:hover,
+.footer-tel:hover, .footer-logo:hover {
+    color: #2196F3;
+}
+
+.footer-map:focus, .footer-mail:focus, .footer-tel:focus, .footer-logo:focus{  
+color: #2196F3;
+}
+
+.footer-logo:hover{
+color: #FFFFFF;
+}
+
+/* -------------------------------------------------------------------portfolio-------------------------------------------------------------------------------------*/
+.button {
+    background-color: #F5F4FA;
+    color: #212121;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.our-works h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.our-works p{
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: #757575;
+}
