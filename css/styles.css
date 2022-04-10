@@ -1,12 +1,17 @@
 /* -------------------------------------------------------------------HEADER-------------------------------------------------------------------------------------*/
+:root {
+--primary-text-color: #757575;
+--accent-text-color: #2196F3;
+--title-text-color: #212121;
+}
 
 body{
 font-family: 'Roboto';
-color: #757575;
+color: var(--primary-text-color);
 }
 
 .title{
-color: #212121;
+color: var(--title-text-color);
 }
 
 .header{
@@ -18,7 +23,7 @@ font-family: 'Raleway';
 font-style: normal;
 font-size: 26px;
 line-height: 1.19;
-color: #2196F3;
+color: var(--accent-text-color);
 }
 
 .navigation a, .link-mail, .link-tel{
@@ -30,23 +35,23 @@ letter-spacing: 0.02em;
 }
 
 .nav-link:visited {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .nav-link:hover, .link-mail:hover,
 .link-tel:hover, .header-logo:hover{
-color: #2196F3;
+color: var(--accent-text-color);
 }
 
 .nav-link:focus, .link-mail:focus, .link-tel:focus, .header-logo:focus  {
-color: #2196F3;
+color: var(--accent-text-color);
 }
 
 .link-mail, .link-tel{
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .header-logo:hover {
-    color: #212121;
+    color: var(--title-text-color);
 }
 /* -------------------------------------------------------------------MAIN-------------------------------------------------------------------------------------*/
 .main-top-section{
@@ -66,13 +71,13 @@ color: #ffffff;
 }
 
 .service{
-background-color: #2196F3;
+background-color: var(--accent-text-color);
 color: #ffffff;
 cursor: pointer;
 }
 
 .service:hover, .service:focus{
-color: #212121;
+color: var(--title-text-color);
 }
 
 /* -------------------------------------------------------------------PROS-SEC-------------------------------------------------------------------------------------*/
@@ -82,7 +87,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--title-text-color);
 }
 
 .pros-main p{  
@@ -90,7 +95,7 @@ font-family: 'Roboto';
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--primary-text-color);
 }
 
 /* -----------------------------------------------------------------------OURWORK-SEC---------------------------------------------------------------------------------*/
@@ -100,7 +105,7 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--title-text-color);
 }
 
 /* -------------------------------------------------------------------OURTEAM-SEC-------------------------------------------------------------------------------------*/
@@ -116,7 +121,7 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--title-text-color);
 }
 
 .our-team p{
@@ -125,7 +130,7 @@ font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--primary-text-color);
 }
 /* -------------------------------------------------------------------FOOTER-------------------------------------------------------------------------------------*/
 .footer{
@@ -136,7 +141,7 @@ background-color: #2F303A;
     font-style: normal;
     font-size: 26px;
     line-height: 1.19;
-    color: #2196F3;
+    color: var(--accent-text-color);
 }
 
 .fooret-map{
@@ -170,17 +175,17 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-map:visited {
-    color: white;
+    color: #FFFFFF;
 }
 
 .footer-map:hover,
 .footer-mail:hover,
 .footer-tel:hover, .footer-logo:hover {
-    color: #2196F3;
+    color: var(--accent-text-color);
 }
 
 .footer-map:focus, .footer-mail:focus, .footer-tel:focus, .footer-logo:focus{  
-color: #2196F3;
+color: var(--accent-text-color);
 }
 
 .footer-logo:hover{
@@ -190,7 +195,7 @@ color: #FFFFFF;
 /* -------------------------------------------------------------------portfolio-------------------------------------------------------------------------------------*/
 .button {
     background-color: #F5F4FA;
-    color: #212121;
+    color: var(--title-text-color);
     cursor: pointer;
 }
 
@@ -205,7 +210,7 @@ color: #FFFFFF;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .our-works p{
@@ -213,5 +218,5 @@ font-family: 'Roboto';
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--primary-text-color);
 }
