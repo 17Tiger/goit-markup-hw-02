@@ -1,222 +1,240 @@
-/* -------------------------------------------------------------------HEADER-------------------------------------------------------------------------------------*/
+
 :root {
 --primary-text-color: #757575;
 --accent-text-color: #2196F3;
 --title-text-color: #212121;
+--non-core-background-color: #f5f4fa;
+--primary-background-color: #ffffff;
+--secondary-background-color: #2F303A;
+--primary-button-background-color: #2196f3;
+--header-link-color: #212121;
+--primary-button-background-hover-color: #188CE8;
+--secondary-text-color: #ffffff;
+--footer-right-logo-color: #ffffff;
+--header-right-logo-color: #000000;
+--contacts-color: #757575;
+--portfolio-background-color: #ffffff;
 }
 
 body{
-font-family: 'Roboto';
+font-family: Roboto;
 color: var(--primary-text-color);
+background-color: var(--primary-background-color);
+font-size: 14px;
+letter-spacing: 0.03em;
+}
+
+.link{
+text-decoration: none;
+}
+
+.list{
+list-style: none;
 }
 
 .title{
 color: var(--title-text-color);
 }
 
+.button{
+    cursor: pointer;
+    border: none;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+}
+
+/* -------------------------------------------------------------------HEADER-------------------------------------------------------------------------------------*/
+
 .header{
-background-color: #ffffff;       
+background-color: var(--header-background);       
 }
 
 .header-logo{
-font-family: 'Raleway';
-font-style: normal;
+font-family: Raleway;
 font-size: 26px;
 line-height: 1.19;
 color: var(--accent-text-color);
 }
 
-.navigation a, .link-mail, .link-tel{
-font-style: normal;
+.header-right-logo{
+    color: var(--header-right-logo-color);
+}
+
+.header-link{
 font-weight: 500;
-font-size: 14px;
+
 line-height: 1.14;
 letter-spacing: 0.02em;
 }
 
-.nav-link:visited {
-    color: var(--title-text-color);
+.nav-link{
+    color: var(--header-link-color);
 }
 
-.nav-link:hover, .link-mail:hover,
-.link-tel:hover, .header-logo:hover{
+.link-mail,
+.link-tel {
+    color: var(--contacts-color);
+}
+
+.header-link:hover, .header-link:focus{
 color: var(--accent-text-color);
 }
 
-.nav-link:focus, .link-mail:focus, .link-tel:focus, .header-logo:focus  {
-color: var(--accent-text-color);
-}
-
-.link-mail, .link-tel{
-    color: var(--primary-text-color);
-}
-.header-logo:hover {
-    color: var(--title-text-color);
-}
 /* -------------------------------------------------------------------MAIN-------------------------------------------------------------------------------------*/
-.main-top-section{
-background-color: #2F303A; 
+
+
+/* ------------------------------------------------------------------BUSINESS-SERVICE-SEC-------------------------------------------------------------------------------*/
+
+.business-service{
+background-color: var(--secondary-background-color); 
 }
-/* -------------------------------------------------------------------SERVICE-SEC-------------------------------------------------------------------------------------*/
-.main-top-title{
-font-family: 'Roboto';
-font-style: normal;
+
+.business-service-title{
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-color: #ffffff;
+color: var(--secondary-text-color);
 }
 
-.service{
-background-color: var(--accent-text-color);
-color: #ffffff;
-cursor: pointer;
+.service-btn{
+background-color: var(--primary-button-background-color);
+color: var(--secondary-text-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
 }
 
-.service:hover, .service:focus{
-color: var(--title-text-color);
+.service-btn:hover, .service:focus{
+background-color: var(--primary-button-background-hover-color);
 }
 
 /* -------------------------------------------------------------------PROS-SEC-------------------------------------------------------------------------------------*/
-.pros-main h3{
-font-family: 'Roboto';
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
+.our-pros-cause-title{
+font-weight: 700;
+line-height: 16px;
 text-transform: uppercase;
 color: var(--title-text-color);
 }
 
-.pros-main p{  
-font-family: 'Roboto';
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+
+.our-pros-txt{  
+    line-height: 1.71;
+    color: var(--primary-text-color);
 }
 
 /* -----------------------------------------------------------------------OURWORK-SEC---------------------------------------------------------------------------------*/
-.our-work h2{
-font-family: 'Roboto';
+.our-work-title{
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--title-text-color);
 }
 
 /* -------------------------------------------------------------------OURTEAM-SEC-------------------------------------------------------------------------------------*/
 .our-team{
-background-color: #F5F4FA;
+background-color: var(--non-core-background-color);
 }
 
-.our-team h3{ 
-font-family: 'Roboto';
-font-style: normal;
+.our-team-title{
+font-size: 36px;
+line-height: 1.16;
+text-align: center; 
+letter-spacing: 0.03em;
+color: var(--title-text-color);  
+}
+
+.our-team-name-title{ 
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--title-text-color);
 }
 
-.our-team p{
-font-family: 'Roboto';
+
+.our-team-txt{
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
+
 /* -------------------------------------------------------------------FOOTER-------------------------------------------------------------------------------------*/
+
 .footer{
-background-color: #2F303A;
+background-color: var(--secondary-background-color);
 }
+
 .footer-logo {
-    font-family: 'Raleway';
-    font-style: normal;
+    font-family: Raleway;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: var(--accent-text-color);
 }
 
-.fooret-map{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+.footer-right-logo{
+color: var(--footer-right-logo-color);
 }
 
-.footer-mail{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+.footer-map,
+.footer-mail,
+.footer-tel {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+.footer-map{
+color: var(--secondary-text-color);
+}
+
+.footer-mail, .footer-tel{
 color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-tel{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-}
 
-.footer-map:visited {
-    color: #FFFFFF;
-}
-
-.footer-map:hover,
-.footer-mail:hover,
-.footer-tel:hover, .footer-logo:hover {
+.footer-link:hover, .footer-link:focus{
     color: var(--accent-text-color);
 }
 
-.footer-map:focus, .footer-mail:focus, .footer-tel:focus, .footer-logo:focus{  
-color: var(--accent-text-color);
-}
-
-.footer-logo:hover{
-color: #FFFFFF;
-}
-
 /* -------------------------------------------------------------------portfolio-------------------------------------------------------------------------------------*/
-.button {
-    background-color: #F5F4FA;
-    color: var(--title-text-color);
-    cursor: pointer;
+
+.portfolio{
+    background-color: var(--portfolio-background-color);
 }
 
-.button:hover,
-.button:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
+.portfolio-filter-btn{
+    background-color: var(--non-core-background-color);
+    color: var(--title-text-color);  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+
 }
-.our-works h3 {
-    font-family: 'Roboto';
-    font-style: normal;
+
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus {
+    background-color: var(--primary-button-background-color);
+    color: var(--secondary-text-color);
+}
+.portfolio-name-title{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
 
-.our-works p{
-font-family: 'Roboto';
+.portfolio-txt{
 font-size: 16px;
 line-height: 1.88;
-letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
