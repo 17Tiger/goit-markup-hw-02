@@ -212,6 +212,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .portfolio-filter-btn{
+    font-family: Roboto;
     background-color: var(--non-core-background-color);
     color: var(--title-text-color);  
     font-weight: 500;
